@@ -15,6 +15,7 @@ public class ThrowsExample {
 	}
 
 	int division(int a, int b) throws ArithmeticException{
+		
 		int div = a / b;
 		return div;
 	}
