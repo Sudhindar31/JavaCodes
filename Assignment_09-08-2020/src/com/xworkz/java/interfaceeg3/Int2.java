@@ -4,6 +4,10 @@ public interface Int2 {
 	
 	String test = "Sample String";
 	
-	void method1();
-	void method2();
+	default void method1(){
+		System.out.println("Int2 : Method 1");
+	}
+	default void method2(){
+		System.out.println("Int2 : Method 2");
+	}
 }
